@@ -1,0 +1,31 @@
+.current-weather{
+    display:flex;
+    width: 34%;
+    height: 80%;
+    background-color: rgb(163 200 234);
+    border-radius: 8px;
+    margin-left: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.current-weather-block p {
+    color: black;
+    font-family: sans-serif;
+}
+.current-weather-city, .current-weather-temp{
+    font-size:18px;
+    font-weight: bold;
+}
+
+.current-weather-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.current-weather-temp{
+    padding-top: 33px;
+}
+.current-weather-date{
+    margin-top: 0px;
+    margin-left: 10px;
+}

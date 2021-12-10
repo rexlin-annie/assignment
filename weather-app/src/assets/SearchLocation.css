@@ -1,0 +1,27 @@
+.search-container{
+    width:100%;
+    padding : 20px;
+    background: transparent;
+}
+.search-btn{
+    height: 35px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border : 1px solid black;
+    border-right: 0px;
+    width: 50px;
+}
+.search-input{
+    height : 35px;
+    width: 200px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border-left: 0px;
+    border : 1px solid black;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(201, 187, 187);
+    opacity: 1; /* Firefox */
+  }
+  
